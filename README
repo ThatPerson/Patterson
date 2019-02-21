@@ -1,0 +1,5 @@
+Run program as
+
+python generate_patterson i[FILENAME] o[OUTPUTFILENAME] (c)
+
+Reads from FILENAME, writes to OUTPUTFILENAME. There is an example xyz file. Passing c as an argument will convert the weights from numbers (1, 2, 3) to atoms (H, He, Li). This is useful if you're visualising them in say Avogadro as this will be visible as a molecule.
